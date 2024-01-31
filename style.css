@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/background.jpg);
+    color: #ffffff;
+}
+
+main {
+    margin: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: #ffffff;
+}
+
+header {
+    background-color: #ff97275d;
+    color: #ffffff;
+    padding: 2%;
+    text-align: center;
+}
+
+.index {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.artist {
+    float: right;
+    margin-left: 0.5em;
+}
+
+#yoshi_nara {
+    height: 12em;
+    width: 12em;
+}
+
+#first {
+    overflow: hidden;
+}
+
+.peace {
+    display: flex;
+    justify-content: center;
+}
+
+#worldpeace {
+    width: 20vh;
+}
+
+.rock {
+    display: flex;
+    justify-content: center;
+}
+
+#rocknroll {
+    width: 20vh;
+}
+
+.death {
+    display: flex;
+    justify-content: center;
+}
+
+#deathdeath {
+    width: 20vh;
+    height: 8em;
+    width: 7.5em;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1.25em;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 0.2em;
+    width: 0;
+    background: #ff8400;
+    position: absolute;
+    left: 0;
+    bottom: -0.5em;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after {
+    width: 100%;
+}
+
+footer {
+    background-color: rgba(221, 148, 71, 0.1);
+    text-align: center;
+}
